@@ -16,7 +16,7 @@ This project aims to automatically classify these sounds using audio processing 
 Tharun C – Implemented CNN Model
 Mohamed Ansari – Implemented Random Forest Model
 🧠 Models Used
-🔹 CNN (Convolutional Neural Network)
+🔹 Convolutional Neural Network (CNN)
 Converts audio into spectrogram images
 Learns spatial patterns in sound data
 Provides higher accuracy for complex audio classification
@@ -26,7 +26,7 @@ Ensemble learning method (multiple decision trees)
 Faster and simpler compared to CNN
 ⚙️ Tech Stack
 Python 🐍
-Librosa 🎵 (Audio processing)
+Librosa 🎵 (Audio Processing)
 NumPy & Pandas
 Matplotlib
 Scikit-learn
@@ -43,7 +43,7 @@ Result Comparison
 📊 Results
 CNN model achieved better performance in capturing complex audio patterns
 Random Forest performed well with structured features like MFCC
-Comparative analysis shows deep learning is more effective for audio classification
+Deep learning models proved more effective for audio classification
 
 👉 Conclusion: CNN outperforms Random Forest for urban sound classification tasks.
 
@@ -63,4 +63,4 @@ Large dataset processing time
 🔮 Future Improvements
 Use advanced models like LSTM / Transformers
 Real-time sound classification system
-Deploy as a web/mobile application
+Deployment as a web/mobile application
